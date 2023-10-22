@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat';
+    color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: hsl(30, 38%, 92%);
+}
+
+#attribution {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  color : hsl(158, 36%, 37%);
+}
+
+#attribution a {
+    color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+
+#attribution a:hover {
+    color : hsl(212, 21%, 14%);
+}
+
+.photo{
+    border-radius : 7px 0 0 7px;
+}
+.content {
+    border-radius : 0 7px 7px 0;
+}
+
+.title{
+    text-transform : uppercase ;
+    color : hsl(212, 21%, 14%);
+    font-size : 11px;
+    letter-spacing : 0.6vw;
+}
+.product{
+    font-family : 'Fraunces';
+    color : hsl(212, 21%, 14%);
+    font-size : 160%;
+}
+.text{
+    color : hsl(228, 12%, 48%);
+}
+.price *{
+    display : inline-block;
+}
+.new{
+    font-size :20px;
+    font-family : 'Fraunces';
+    margin-right : 2vw;
+}
+
+.old{
+    font-family : 'Fraunces';
+    text-decoration : line-through;
+    color : hsl(228, 12%, 48%);
+}
+
+.button{
+    color : white ;
+    background-color : hsl(158, 36%, 37%);
+    padding : 0.5vw;
+}
+
+.button:hover{
+    background-color : hsl(212, 21%, 14%);
+    color : white;
+}
+.button img{
+    margin-right : 1vw;
+}
+
+@media (max-width: 767.9px) {
+  .photo{
+      border-radius : 9px 9px 0 0px;
+  }
+  .content{
+      border-radius :  0 0 9px 9px ;
+  }
+}
+
